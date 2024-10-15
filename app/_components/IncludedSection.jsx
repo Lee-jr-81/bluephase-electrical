@@ -33,7 +33,7 @@ export default function IncludedSection() {
           <div className="w-3/4">
             <ColouredLine colour="red" />
           </div>
-          <div className="grid mt-20 gap-6">
+          <div className="grid mt-20 gap-6 mb-20 md:mb-40">
             <div className="flex items-center gap-4">
               <Image src={Spark} alt="image of an electric spark" height={50} />
               <h3 className="text-mediumAccent text-lg font-semibold text-left">
@@ -46,14 +46,12 @@ export default function IncludedSection() {
                 High speed data network wired throughout
               </h3>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 mb-20">
               <Image src={Spark} alt="image of an electric spark" height={50} />
               <h3 className="text-mediumAccent text-lg font-semibold text-left">
                 Security alarm and CCTV system fitted
               </h3>
             </div>
-            <div>2</div>
-            <div>3</div>
           </div>
         </div>
       </div>
