@@ -10,6 +10,13 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightAccent: "#F3FCFF",
+        mediumAccent: "#2898FF",
+        darkAccent: "#0C263E",
+        statement: "#FF0000",
+      },
+      fontFamily: {
+        ClashGrotesk: ["var(--font-clash)"],
       },
     },
   },
